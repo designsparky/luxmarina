@@ -63,14 +63,14 @@ table {
 /
 
 /*Responsive styles*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 	.container{	
 	flex-direction: row;
 	}
 	
 	.centered h1 {
 	color: white;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-family: "Urbanist", sans-serif;
     font-weight: 600;
 	}
@@ -154,13 +154,13 @@ a {
 	display: none;
 	position: absolute;
 	right: 32px;
-	font-size: 34px;
+	font-size: 2.125em;
 	padding-top: 20px;
 	padding-right: 40px; 
 }
 
 /*Responsive Navbar*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.navbar {
 		flex-direction: column;
 		align-items: flex-start;
@@ -217,7 +217,7 @@ a {
 
 .centered h1 {
 	color: white;
-	font-size: 40px;
+	font-size: 2.5em;
 	font-family: "Urbanist", sans-serif;
     font-weight: 900;
 }
@@ -260,7 +260,7 @@ a {
   border-radius: 5px;
   font-family: "Urbanist", sans-serif;
   font-weight: 900;
-  font-size: 25px;	
+  font-size: 1.5625em;	
   text-decoration-line: none;
 }
 
@@ -273,9 +273,9 @@ a {
 
 /*landing responsive*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.centered h1 {
-		font-size: 27px;
+		font-size: 1.6875em;
 	}
 	
 	.button {
@@ -285,8 +285,25 @@ a {
 	
 	.button a {
 	  padding: 6px 12px;
-      font-size: 20px;
+      font-size: 1.25em;
 	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.centered h1 {
+		font-size: 1.9875em;
+	}
+	
+	.button {
+	  padding-top: 70px;
+	  margin: 0 auto;
+	}
+	
+	.button a {
+	  padding: 6px 12px;
+      font-size: 1.5em;
+	}
+
 }
 
 /*
@@ -315,7 +332,7 @@ It cause error.. idk why*/
 }
 
 .about-header1 h1 {
-	font-size: 105px;
+	font-size: 6.5625em;
 	text-transform: capitalize;
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 900;
@@ -324,7 +341,7 @@ It cause error.. idk why*/
 }
 
 .about-header2 h1 {
-	font-size: 105px;
+	font-size: 6.5625em;
 	text-transform: capitalize;
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 900;
@@ -333,7 +350,7 @@ It cause error.. idk why*/
 }
 
 .about-p {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -342,6 +359,7 @@ It cause error.. idk why*/
 	/* width: 320px; 이걸 빼면 글자가 리스폰스함*/
 	line-height : normal;
 	line-height : 1.8em;
+	letter-spacing: 0.04em;
 }
 
 
@@ -362,24 +380,24 @@ It cause error.. idk why*/
 }
 
 /*about1 responsive*/
- @media (max-width: 768px) {
+ @media (max-width: 767px) {
     .about-header1 h1 {
-      font-size: 70px; 
+      font-size: 4.375em; 
 	  width: 100%;
       margin: 0 auto;  
 	  text-align: center;
     }
 
     .about-p {
-      font-size: 15px;
-	  width: 100%;
+      font-size: 0.9375em;
+	  width: 90%;
       margin: 0 auto;
 	  margin-left: 20px;
 	  margin-right: 20px;
     }
 	 
 	.about-header2 h1 {
-      font-size: 70px; 
+      font-size: 4.375em; 
 	  width: 100%;
       margin: 0 auto;
 	  text-align: center;
@@ -387,6 +405,9 @@ It cause error.. idk why*/
 	 
 	.about-img {
 	  width: 100%;
+	  display: table;
+      margin-left: auto;
+      margin-right: auto; 
       margin: 0 auto;
 	 } 
 		
@@ -414,7 +435,7 @@ It cause error.. idk why*/
 }
 
 .about2-header h1 {
-	font-size: 46px;
+	font-size: 2.875em;
 	text-transform: capitalize;
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 900;
@@ -429,7 +450,7 @@ It cause error.. idk why*/
 	font-family: "Urbanist", sans-serif;
 	font-weight: 500;
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.25em;
 	position: absolute;
 	width: 100%;
     margin: 0 auto;
@@ -437,14 +458,14 @@ It cause error.. idk why*/
 
 /*about2 responsive*/
 
- @media (max-width: 768px) {
+ @media (max-width: 767px) {
     .about2-header h1 {
-      font-size: 25px; 
+      font-size: 1.5625em; 
 	  width: 100%
     }
 	
 	 .about-p2 {
-		 font-size: 14px;
+		 font-size: 0.875em;
 	 }
 }
 
@@ -482,26 +503,31 @@ It cause error.. idk why*/
     margin-top: 0;
 	margin-bottom: 20px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 1.5625em;
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	padding-top: 10px;
+	display: table;
+	margin-left: auto;
+    margin-right: auto;  
   }
 
   .service ul {
     list-style: none;
     padding: 0;
-	margin-left: 100px;
 	margin-top: 20px;
 	padding-bottom: 10px;
+	display: table;
+    margin-left: auto;
+    margin-right: auto;  
   }
 
 .service ul li {
 	margin-bottom: 10px;
 	font-family: "Urbanist", sans-serif;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.25em;
 	width: 100%;
     margin: 0 auto;
 }
@@ -514,18 +540,31 @@ It cause error.. idk why*/
 
 /*services responsive*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.services {
 		 flex-direction: column;
 	}
 	
 	.service {
-		width: 80%;
+		width: 450px;
+		height: 750px;
 		margin: 0 auto;
 	}
 	
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+	.services {
+		 flex-direction: column;
+	}
+	
+	.service {
+		width: 550px;
+		height: 750px;
+		margin: 0 auto;
+	}
+
+}
 	 
 /*about 3 styles*/
 
@@ -546,7 +585,7 @@ It cause error.. idk why*/
 }
 
 .about3-header h1 {
-	font-size: 250px;
+	font-size: 15.625em;
 	text-transform: capitalize;
 	font-family: "Urbanist", sans-serif;
 	font-weight: 900;
@@ -561,25 +600,37 @@ It cause error.. idk why*/
 .about-p3 {
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 500;
-	font-size: 35px;
+	font-size: 2.1875em;
 	width: 100%;
 	text-align: center;
 	line-height : normal;
 	line-height : 1.8em;
+	letter-spacing: 0.04em;
 }
 
 /*about3 responsive*/
- @media (max-width: 768px) {
+ @media (max-width: 767px) {
     .about3-header h1 {
-      font-size: 100px; 
+      font-size: 4.25em; 
 	  width: 100%
     }
 
     .about-p3 {
-      font-size: 15px; /* Ensure image is not larger than the container */
+      font-size: 0.9375em; /* Ensure image is not larger than the container */
     }
   }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+	.about3-header h1 {
+      font-size: 9.25em; 
+	  width: 100%
+    }
+
+    .about-p3 {
+      font-size: 1.5em; /* Ensure image is not larger than the container */
+    }
+
+}
 
 /*staff styles*/
 
@@ -614,7 +665,7 @@ It cause error.. idk why*/
 .proife-info h1 {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 900;
-	font-size: 30px;
+	font-size: 1.875em;
 	text-align: center;
 	text-transform: capitalize;
 	font-style: normal;
@@ -623,7 +674,7 @@ It cause error.. idk why*/
 .profile-info-b h2 {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 500;
-	font-size: 25px;
+	font-size: 1.5625em;
 	text-align: center;
 	padding-top: 5px;
 }
@@ -649,13 +700,12 @@ It cause error.. idk why*/
 .staff-info h1{
 	font-family: "Urbanist", sans-serif;
 	font-weight: 900;
-	font-size: 47px;
+	font-size: 2.9375em;
 	padding-top: 10px;
 	text-transform: capitalize;
 	font-style: normal;
 	text-align: left;
 }
-
 
 .social-media-staff a img {
     width: 35px; /* Adjust as necessary */
@@ -670,30 +720,56 @@ It cause error.. idk why*/
 .staff-info p {
 	font-family: "Urbanist", sans-serif;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 1.125em;
 	text-align: left;
 	padding-bottom: 10px;
 	line-height : normal;
 	line-height : 1.2em;
+	padding-top: 30px;
 }
 
 /*staff responsive*/
 
-/*contact responsive*/
- @media (max-width: 768px) {
+ @media (max-width: 767px) {
 	.staff-info h1 {
 		width: 100%;
     	margin: 0 auto;
-		font-size: 35px;
+		font-size: 2.1875em;
 		text-align: center;
 	 }
 	 
 	 .social-media-staff {
 		 margin: 0 auto;
-		 width: 100%;
-		 margin-left: 160px;
+		 width: 450px;
+		 display: table;
+         margin-left: 20px;
+         margin-right: auto;
 	 }
-	 }
+	 
+	 .staff-info {
+		 width: 450px;
+	}
+	 
+	 .staff-info p {
+		font-family: "Urbanist", sans-serif;
+		font-weight: 500;
+		font-size: 1.125em;
+		text-align: left;
+		padding-bottom: 10px;
+		line-height : normal;
+		line-height : 1.2em;
+		padding-top: 30px;
+		margin-left: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.staff-info {
+		 margin-left: 30px;
+	}
+
+}
 
 /*contact styles*/
 
@@ -709,7 +785,7 @@ It cause error.. idk why*/
 }
 
 .contact-header h1 {
-	font-size: 65px;
+	font-size: 4.0625em;
 	text-transform: capitalize;
 	font-family: "dazzle-unicase", sans-serif;
 	font-weight: 500;
@@ -734,7 +810,7 @@ It cause error.. idk why*/
 }
 
 .contact-info h3 {
-	font-size: 25px;
+	font-size: 1.5625em;
 	color: grey;
 	font-family: "Urbanist", sans-serif;
 	font-weight: 600;
@@ -763,7 +839,7 @@ It cause error.. idk why*/
 }
 
 /*contact responsive*/
- @media (max-width: 768px) {
+ @media (max-width: 767px) {
 	.contact-info h3, .contact-info p, .social-media {
 		width: 100%;
     	margin: 0 auto;
@@ -790,6 +866,6 @@ footer p {
 	margin: 5px 0;
 	font-family: "Urbanist", sans-serif;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 0.9375em;
 }
     
