@@ -202,7 +202,7 @@ a {
   position: relative;
   text-align: center;
   color: white;
-  display: flex; /*반응형 때문에 추가한거*/
+  display: flex; 
 }
 
 /* Centered text */
@@ -221,27 +221,6 @@ a {
 	font-family: "Urbanist", sans-serif;
     font-weight: 900;
 }
-
-
-
-/* Style the button and place it in the middle of the container/image */
-/*.button a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform: translateY(340%);
-  transform: translateX(-15%);	
-  background-color: transparent;
-  color: white;
-  padding: 12px 24px;
-  border: 3px solid #f1f1f1;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: "Urbanist", sans-serif;
-  font-weight: 900;
-  font-size: 25px;
-}*/
 
 
 .button {	
@@ -305,18 +284,6 @@ a {
 	}
 
 }
-
-/*
-.button {
-	  padding-top: 70px;
-	  margin: 0 auto;
-	}
-	
-	.button a {
-	  padding: 6px 12px;
-      font-size: 20px;
-}
-It cause error.. idk why*/
 	
 	 
 /*about1 styles*/
@@ -324,7 +291,7 @@ It cause error.. idk why*/
 .about1 {
 	width: 100%;
 	padding: 78px 0px;
-	background-color: white; /*나중에 흰색으로 바꿔*/
+	background-color: white; 
 }
 
 .contact-info {
@@ -356,17 +323,16 @@ It cause error.. idk why*/
 	font-style: normal;
 	margin: 10px 0;
 	padding-bottom: 30px;
-	/* width: 320px; 이걸 빼면 글자가 리스폰스함*/
 	line-height : normal;
 	line-height : 1.8em;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
 }
 
 
 /*screen divided*/
 .main {
 	width: 1130px;
-	max-width: 65%; /*it was 95%*/
+	max-width: 65%; 
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -374,7 +340,7 @@ It cause error.. idk why*/
 }
 
 .about-img {
-	width: 550px; /*원래는 5px이었는데 바꿈*/
+	width: 550px; 
 	height: auto;
 	padding-left: 30px;
 }
@@ -427,9 +393,9 @@ It cause error.. idk why*/
 
 .main-b {
 	width: 1130px;
-	max-width: 100%; /*it was 95%*/
+	max-width: 100%; 
 	margin: 0 auto;
-	display: contents; /*원래는 flex였는데 contents로 바꾸니까 밑에줄로 내려옴*/
+	display: contents; 
 	align-items: center;
 	justify-content: space-around;
 }
@@ -530,6 +496,7 @@ It cause error.. idk why*/
 	font-size: 1.25em;
 	width: 100%;
     margin: 0 auto;
+	padding-bottom: 4px;
 }
 
   .service ul li::before {
@@ -577,9 +544,9 @@ It cause error.. idk why*/
 .main-c {
 	width: 100%;
 	height: auto;
-	max-width: 100%; /*it was 95%*/
+	max-width: 100%; 
 	margin: 0 auto;
-	display: contents; /*원래는 flex였는데 contents로 바꾸니까 밑에줄로 내려옴*/
+	display: contents; 
 	align-items: center;
 	justify-content: space-around;
 }
@@ -605,7 +572,7 @@ It cause error.. idk why*/
 	text-align: center;
 	line-height : normal;
 	line-height : 1.8em;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
 }
 
 /*about3 responsive*/
@@ -616,7 +583,7 @@ It cause error.. idk why*/
     }
 
     .about-p3 {
-      font-size: 0.9375em; /* Ensure image is not larger than the container */
+      font-size: 0.9375em; 
     }
   }
 
@@ -627,7 +594,7 @@ It cause error.. idk why*/
     }
 
     .about-p3 {
-      font-size: 1.5em; /* Ensure image is not larger than the container */
+      font-size: 1.5em; 
     }
 
 }
@@ -647,7 +614,7 @@ It cause error.. idk why*/
 
 .profile-img img {
     border-radius: 50%;
-    width: 350px; /* Adjust as necessary */
+    width: 350px; 
     height: auto;
     margin-bottom: 20px;
 	padding-top: 20px;
@@ -708,7 +675,7 @@ It cause error.. idk why*/
 }
 
 .social-media-staff a img {
-    width: 35px; /* Adjust as necessary */
+    width: 35px; 
     height: auto;
     margin: 0 10px;
 	padding-top: 20px;
@@ -832,7 +799,7 @@ It cause error.. idk why*/
 }
 
 .social-media a img {
-    width: 35px; /* Adjust as necessary */
+    width: 35px; 
     height: auto;
     margin: 0 10px;
 	padding-top: 10px;
